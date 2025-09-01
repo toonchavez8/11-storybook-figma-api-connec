@@ -13,3 +13,12 @@
 body {
 	@apply bg-[#0d082d];
 }
+
+@layer utilities {
+	.font-firacode {
+		font-family: "Fira Code", monospace;
+	}
+	.font-inconsolata {
+		font-family: "Inconsolata", monospace;
+	}
+}
